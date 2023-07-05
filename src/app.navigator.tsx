@@ -6,6 +6,7 @@ import ComponentsScreen from './screens/ComponentsScreens';
 import ButtonScreen from './screens/NativeComponentScreens/ButtonScreen';
 import InputScreen from './screens/NativeComponentScreens/InputScreen';
 import RadioScreen from './screens/NativeComponentScreens/RadioScreen';
+import SelectScreen from './screens/NativeComponentScreens/SelectScreen';
 
 const{Navigator, Screen} = createNativeStackNavigator();
 
@@ -18,6 +19,7 @@ export default function AppNavigator() {
         <Screen name="ButtonScreen" component={ButtonScreen} />
         <Screen name="InputScreen" component={InputScreen} />
         <Screen name="RadioScreen" component={RadioScreen} />
+        <Screen name="SelectScreen" component={SelectScreen} />
       </Navigator>
     </NavigationContainer>
   )
