@@ -10,7 +10,7 @@ export default function CustomSelect(props) {
       onValueChange={props.onValueChange}
     >
       {
-        props.arrayValeus.map(value => {
+        props.arrayValues.map(value => {
           return <Select.Item key={value} value={value} label={value} />
           }
         )
