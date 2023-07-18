@@ -5,7 +5,7 @@ const baseStyle = {
     bg: colors.customLight['--p-surface'],
   },
   _dark: {
-    bg: colors['--p-interactive-critical'],
+    bg: colors.customDark['--p-surface-dark'],
   },
 };
 
